@@ -1,0 +1,14 @@
+{
+  "name": "electron-app",
+  "version": "1.0.0",
+  "description": "simple electron app",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Vaibhav",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^4.1.4"
+  }
+}

@@ -1,0 +1,35 @@
+<html>
+
+<head>
+    <title>
+        New Electron Application
+    </title>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+
+<body>
+    <div class="header">
+        <h1>
+            Welcome to First Window
+        </h1>
+        <div id="form-container" class="container">
+            <div class="form-group">
+                <i class="fa fa-user" aria-hidden="true"></i>
+                <input type="text" placeholder="Enter Email" class="form-control" id="email">
+            </div>
+            <div class="form-group">
+                <i class="fa fa-lock" aria-hidden="true"></i>
+                <input type="password" placeholder="Enter Activation Code" class="form-control" id="activationCode">
+            </div>
+
+            <button class="btn-btn-success" id="signIn">Sign In</button>
+
+        </div>
+    </div>
+</body>
+
+<script>
+    require('./renderer.js');
+</script>
+
+</html>
